@@ -1,6 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Muhammad Nadeem - AI Portfolio
+🚀 **Production-Ready Portfolio built with Next.js 14, Tailwind CSS, and Framer Motion.**
 
-## Getting Started
+## 🔑 Admin Access
+To manage testimonials:
+1. Go to `/admin` (e.g., `http://localhost:3000/admin`).
+2. Login with password: `nadeem123`.
+3. Approve or Delete client feedback in real-time.
+
+## 🛠 Setup
 
 First, run the development server:
 

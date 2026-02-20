@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Alex Thompson",
+    "role": "CEO, TechFlow Agency",
+    "text": "Nadeem's AI voice agents completely transformed our lead qualification process. We reduced manual calls by 70% and saw a 2x increase in qualified appointments.",
+    "approved": true
+  },
+  {
+    "id": "2",
+    "name": "Sarah Jenkins",
+    "role": "Operations Director, MedCare UK",
+    "text": "The chatbot network Nadeem built for our patient support system is incredible. 50+ bots handling inquiries 24/7 with zero downtime. Highly recommended!",
+    "approved": true
+  },
+  {
+    "id": "3",
+    "name": "Michael Chen",
+    "role": "Founder, DataScale",
+    "text": "Exceptional work on the RAG pipeline. Nadeem clearly understands how to make LLMs efficient and accurate for business data.",
+    "approved": true
+  },
+  {
+    "id": "1771568598872",
+    "name": "Nadeem",
+    "role": "Test",
+    "text": "Test",
+    "approved": false
+  }
+]
