@@ -35,6 +35,7 @@ export default function RootLayout({
         {/* @ts-ignore */}
         <elevenlabs-convai agent-id="agent_9901kj0ra2hwedkbcv8amfh8kccg"></elevenlabs-convai>
         <Script src="https://unpkg.com/@elevenlabs/convai-widget-embed" strategy="lazyOnload" />
+        <Script src="https://www.noupe.com/embed/019c81fab407708b92da26228c8dc8bd97d9.js" strategy="lazyOnload" />
       </body>
     </html>
   );
