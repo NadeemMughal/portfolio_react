@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
@@ -31,6 +32,9 @@ export default function RootLayout({
         className={`${inter.variable} ${outfit.variable} antialiased bg-bg-primary text-text-primary selection:bg-accent-cyan selection:text-black`}
       >
         {children}
+        {/* @ts-ignore */}
+        <elevenlabs-convai agent-id="agent_9901kj0ra2hwedkbcv8amfh8kccg"></elevenlabs-convai>
+        <Script src="https://unpkg.com/@elevenlabs/convai-widget-embed" strategy="lazyOnload" />
       </body>
     </html>
   );

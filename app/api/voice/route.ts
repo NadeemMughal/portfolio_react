@@ -1,5 +1,6 @@
 
 import { NextResponse } from "next/server";
+// @ts-ignore
 import { ElevenLabsClient } from "elevenlabs-node";
 // Note: You may need a different library or direct fetch if this one is not suitable, 
 // but assuming `elevenlabs-node` is available as per package.json.

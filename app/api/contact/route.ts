@@ -13,7 +13,9 @@ export async function POST(req: Request) {
         // NOTE: You need to set GMAIL_USER and GMAIL_PASS in your .env.local file
         // GMAIL_PASS should be an "App Password" if you have 2FA enabled.
         const transporter = nodemailer.createTransport({
-            service: "gmail",
+            host: "smtp.gmail.com",
+            port: 465,
+            secure: true,
             auth: {
                 user: process.env.GMAIL_USER,
                 pass: process.env.GMAIL_PASS,
@@ -22,7 +24,7 @@ export async function POST(req: Request) {
 
         const mailOptions = {
             from: process.env.GMAIL_USER,
-            to: "sales.nadeem10@gmail.com",
+            to: process.env.GMAIL_TO || process.env.GMAIL_USER || "sales.nadeem10@gmail.com",
             subject: `New Portfolio Inquiry from ${name}`,
             text: `
         Name: ${name}
